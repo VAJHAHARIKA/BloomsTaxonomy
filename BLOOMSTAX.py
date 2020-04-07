@@ -10,13 +10,7 @@ nltk.download('punkt')
 
 text = input()
 nltk_tokens = nltk.word_tokenize(text)
-print (nltk_tokens)
-c1=0
-c2=0
-c3=0
-c4=0
-c5=0
-c6=0
+c1=c2=c3=c4=c5=c6=0
 level1=["choose","define",'find','how','label','list','match','name','omit','recall','relate','select','show',
 'spell','tell','what','why','when','who','where','which']
 level2=['classify','compare','contrast','demonstrate','explain','extend','illustrate','infer',
@@ -49,20 +43,40 @@ for i in nltk_tokens:
     elif i in level6:
         c6+=1
 l1=[c1,c2,c3,c4,c5,c6]
+
+
+print("The paper has %d questions that come under the category of remember."%c1)
+print("\n")
+
+
+print("The paper has %d questions that come under the category of understand."%c2)
+print("\n")
+
+print("The paper has %d questions that come under the category of application."%c3)
+print("\n")
+
+print("The paper has %d questions that come under the category of analysis."%c4)
+print("\n")
+
+print("The paper has %d questions that come under the category of evaluate."%c5)
+print("\n")
+
+print("The paper has %d questions that come under the category of creation."%c6)
+print("\n")
+
 l2=sorted(l1)
-print(l2)
 if l2[-1]==c1:
-    print("level1")
+    print("So, the paper is of level1- you can remember the subject and attempt")
 if l2[-1]==c2:
-    print("level2")
+    print("Hence, the paper is of level2- you have to understand the concept")
 if l2[-1]==c3:
-    print("level3")
+    print("So, paper is of level3- you have to know the application.")
 if l2[-1]==c4:
-    print("level4")
+    print("Hence, paper is of level4- you need to be able to analyze the subject")
 if l2[-1]==c5:
-    print("level5")
+    print("So,the paper is of level5- you need to be thorough with the concepts for evaluation.")
 if l2[-1]==c6:
-    print("level6")
+    print("Hence, paper is of level6- you can only attempt if you master the subject")
 
 
     
