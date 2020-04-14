@@ -7,8 +7,10 @@ Created on Mon Jan 20 19:43:18 2020
 import nltk
 from nltk.tokenize import word_tokenize 
 nltk.download('punkt')
-
-text = input()
+f=open("File.txt","r")
+if f.mode=="r":
+    text=f.read()
+    
 nltk_tokens = nltk.word_tokenize(text)
 c1=c2=c3=c4=c5=c6=0
 level1=["choose","define",'find','how','label','list','match','name','omit','recall','relate','select','show',
@@ -77,6 +79,11 @@ if l2[-1]==c5:
     print("So,the paper is of level5- you need to be thorough with the concepts for evaluation.")
 if l2[-1]==c6:
     print("Hence, paper is of level6- you can only attempt if you master the subject")
+    
+f.close()
+
+
+    
 
 
     
