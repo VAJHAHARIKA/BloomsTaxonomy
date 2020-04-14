@@ -2,7 +2,7 @@
 """
 Created on Mon Jan 20 19:43:18 2020
 
-@author: Harika Vajha
+@author: Harika
 """
 import nltk
 from nltk.tokenize import word_tokenize 
@@ -81,9 +81,3 @@ if l2[-1]==c6:
     print("Hence, paper is of level6- you can only attempt if you master the subject")
     
 f.close()
-
-
-    
-
-
-    
