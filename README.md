@@ -5,9 +5,9 @@ So for example:
 
 If you give a question paper as follows:
 
-<img src="images/qp.png" height="400" width="500">
+<img src="images/qp1.png" height="400" width="500">
 
 You get:
 
-<img src="images/ap.png" height="400" width="500">
+<img src="images/out.png" height="400" width="500">
 
