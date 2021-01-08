@@ -11,3 +11,9 @@ So for example:
 
 <img src="images/out.png" height="400" width="500">
 
+## How to run?
+
+1. Clone the repository
+2. Install requirements.txt using pip install -r requirements.txt
+3. run pdf.py
+
