@@ -3,11 +3,11 @@ ML algorithm for paper assessment using Blooms Taxonomy. This can be used to ass
 
 So for example:
 
-If you give a question paper as follows:
+## If you give a question paper as follows:
 
 <img src="images/qp1.png" height="400" width="500">
 
-You get:
+## Result you get:
 
 <img src="images/out.png" height="400" width="500">
 
