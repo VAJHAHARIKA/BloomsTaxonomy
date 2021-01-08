@@ -1,0 +1,6 @@
+pyttsx3
+nltk
+PyPDF2
+pdfminer.six
+playsound
+docx2txt
