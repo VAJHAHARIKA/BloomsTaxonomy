@@ -16,4 +16,3 @@ So for example:
 1. Clone the repository
 2. Install requirements.txt using pip install -r requirements.txt
 3. run pdf.py
-
